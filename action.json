@@ -4,7 +4,7 @@
         "description": "Default Welcome Intent",
         "name": "MAIN",
         "fulfillment": {
-          "conversationName": "projectName"
+          "conversationName": "mkahihu-hackduke"
         },
         "intent": {
           "name": "actions.intent.MAIN",
@@ -12,12 +12,29 @@
             "queryPatterns": ["*"]
           }
         }
-      }
+      },
+	  {
+	  	"description": "Denture Lifetime",
+		"name": "QUESTION",
+		"fulfillment": {
+			"conversationName": "getResponse"
+		},
+		"intent": {
+			"name": "actions.intent.MAIN",
+			"trigger": {
+				"queryPatterns": [
+					"denture life span",
+					"how long do dentures last",
+					"do dentures last forever"
+				]
+			}
+		}
+	  }
     ],
     "conversations": {
       "projectName": {
-        "name": "projectName",
-        "url": "thisIsTheURLForYourRESTAPI"
+        "name": "mkahihu-hackduke",
+        "url": "https://mkahihu-hackduke2019.herokuapp.com/"
       }
     },
     "locale": "en"
