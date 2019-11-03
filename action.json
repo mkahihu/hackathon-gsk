@@ -17,10 +17,10 @@
 	  	"description": "Denture Lifetime",
 		"name": "QUESTION",
 		"fulfillment": {
-			"conversationName": "getResponse"
+			"conversationName": "mkahihu-hackduke"
 		},
 		"intent": {
-			"name": "denture.life",
+			"name": "getResponse",
 			"trigger": {
 				"queryPatterns": [
 					"denture life span",
