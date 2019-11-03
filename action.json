@@ -20,7 +20,7 @@
 			"conversationName": "getResponse"
 		},
 		"intent": {
-			"name": "actions.intent.MAIN",
+			"name": "denture.life",
 			"trigger": {
 				"queryPatterns": [
 					"denture life span",
