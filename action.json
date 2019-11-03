@@ -4,7 +4,7 @@
         "description": "Default Welcome Intent",
         "name": "MAIN",
         "fulfillment": {
-          "conversationName": "projectName"
+          "conversationName": "mkahihu-hackduke"
         },
         "intent": {
           "name": "actions.intent.MAIN",
@@ -15,12 +15,12 @@
       },
 	  {
 		"description": "Denture Lifetime",
-		"name": "QUESTION",
+		"name": "QUESTION LIFETIME",
 		"fulfillment": {
-			"conversationName": "projectName"
+			"conversationName": "mkahihu-hackduke"
 		},
 		"intent": {
-			"name": "getResponse",
+			"name": "question.lifetime",
 			"trigger": {
 				"queryPatterns": [
 					"denture life span",
@@ -32,12 +32,12 @@
 	  },
 	  {
 		"description": "Dentures Material",
-		"name": "QUESTION",
+		"name": "QUESTION MATERIAL",
 		"fulfillment": {
-			"conversationName": "projectName"
+			"conversationName": "mkahihu-hackduke"
 		},
 		"intent": {
-			"name": "getResponse",
+			"name": "question.material",
 			"trigger": {
 				"queryPatterns": [
 					"denture made from",
@@ -49,12 +49,12 @@
 	  },
 	  {
 		"description": "Dentures Durability",
-		"name": "QUESTION",
+		"name": "QUESTION DURABILITY",
 		"fulfillment": {
-			"conversationName": "projectName"
+			"conversationName": "mkahihu-hackduke"
 		},
 		"intent": {
-			"name": "getResponse",
+			"name": "question.durability",
 			"trigger": {
 				"queryPatterns": [
 					"how strong are dentures",
@@ -67,12 +67,12 @@
 	  },
 	  {
 		"description": "Denture Scratches",
-		"name": "QUESTION",
+		"name": "QUESTION SCRATCH",
 		"fulfillment": {
-			"conversationName": "projectName"
+			"conversationName": "mkahihu-hackduke"
 		},
 		"intent": {
-			"name": "getResponse",
+			"name": "question.scratch",
 			"trigger": {
 				"queryPatterns": [
 					"dentures durable against scratches",
@@ -85,12 +85,12 @@
 	  },
 	  {
 		"description": "Dentures Loose",
-		"name": "QUESTION",
+		"name": "QUESTION LOOSE",
 		"fulfillment": {
-			"conversationName": "projectName"
+			"conversationName": "mkahihu-hackduke"
 		},
 		"intent": {
-			"name": "getResponse",
+			"name": "question.loose",
 			"trigger": {
 				"queryPatterns": [
 					"what should I do if my dentures are loose",
