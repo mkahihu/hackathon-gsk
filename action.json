@@ -4,7 +4,7 @@
         "description": "Default Welcome Intent",
         "name": "MAIN",
         "fulfillment": {
-          "conversationName": "mkahihu-hackduke"
+          "conversationName": "projectName"
         },
         "intent": {
           "name": "actions.intent.MAIN",
@@ -17,7 +17,7 @@
 	  	"description": "Denture Lifetime",
 		"name": "QUESTION",
 		"fulfillment": {
-			"conversationName": "mkahihu-hackduke"
+			"conversationName": "projectName"
 		},
 		"intent": {
 			"name": "getResponse",
@@ -34,7 +34,7 @@
     "conversations": {
       "projectName": {
         "name": "mkahihu-hackduke",
-        "url": "https://connect-us.heroku.com/api/v3"
+        "url": "https://mkahihu-hackduke2019.herokuapp.com/"
       }
     },
     "locale": "en"
