@@ -34,7 +34,7 @@
     "conversations": {
       "projectName": {
         "name": "mkahihu-hackduke",
-        "url": "https://mkahihu-hackduke2019.herokuapp.com/"
+        "url": "https://connect-virginia.heroku.com/api/v3"
       }
     },
     "locale": "en"
