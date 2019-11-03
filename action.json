@@ -14,7 +14,7 @@
         }
       },
 	  {
-	  	"description": "Denture Lifetime",
+		"description": "Denture Lifetime",
 		"name": "QUESTION",
 		"fulfillment": {
 			"conversationName": "projectName"
@@ -29,7 +29,78 @@
 				]
 			}
 		}
+	  },
+	  {
+		"description": "Dentures Material",
+		"name": "QUESTION",
+		"fulfillment": {
+			"conversationName": "projectName"
+		},
+		"intent": {
+			"name": "getResponse",
+			"trigger": {
+				"queryPatterns": [
+					"denture made from",
+					"how are dentures made",
+					"are dentures made from standard mold"
+				]
+			}
+		}
+	  },
+	  {
+		"description": "Dentures Durability",
+		"name": "QUESTION",
+		"fulfillment": {
+			"conversationName": "projectName"
+		},
+		"intent": {
+			"name": "getResponse",
+			"trigger": {
+				"queryPatterns": [
+					"how strong are dentures",
+					"will dentures last forever",
+					"are dentures indestructible",
+					"are dentures fragile"
+				]
+			}
+		}
+	  },
+	  {
+		"description": "Denture Scratches",
+		"name": "QUESTION",
+		"fulfillment": {
+			"conversationName": "projectName"
+		},
+		"intent": {
+			"name": "getResponse",
+			"trigger": {
+				"queryPatterns": [
+					"dentures durable against scratches",
+					"do dentures get nicks",
+					"do dentures get scratches",
+					"use regular toothpaste on dentures"
+				]
+			}
+		}
+	  },
+	  {
+		"description": "Dentures Loose",
+		"name": "QUESTION",
+		"fulfillment": {
+			"conversationName": "projectName"
+		},
+		"intent": {
+			"name": "getResponse",
+			"trigger": {
+				"queryPatterns": [
+					"what should I do if my dentures are loose",
+					"what if my dentures become loose",
+					"what to do if your dentures are loose"
+				]
+			}
+		}
 	  }
+	  
     ],
     "conversations": {
       "projectName": {
